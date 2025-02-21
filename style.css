@@ -465,9 +465,9 @@ transition: 0.3s ease background-color;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	opacity: 0; /* Start invisible */
+	opacity: 0; 
 	transition: opacity 0.3s;
-	z-index: 1; /* Ensure the link is on top */
+	z-index: 1; 
   }
   
   .project-img:hover .github-link {
@@ -737,7 +737,9 @@ transition: 0.3s ease background-color;
 		flex-direction: row;
 	}
 	#projects .project-item:nth-child(even){
-		flex-direction: row-reverse;
+		flex-directi
+		
+		on: row-reverse;
 	}
 	#projects .project-item{
 		height: 400px;
